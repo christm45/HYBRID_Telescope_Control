@@ -1,17 +1,5 @@
 # 📦 HYBRID Telescope Control v7.0 - Complete Edition
 
-## Installateur Windows avec Modèles ML Complets
-
----
-
-## 🚀 Installation Rapide
-
-### Pour les Utilisateurs
-
-1. **Téléchargez** l'installateur :
-   ```
-   HYBRID_Telescope_Control_Setup_v7.0_Complete.exe
-   ```
 
 2. **Exécutez** l'installateur (droits administrateur requis)
 
@@ -47,64 +35,9 @@
 
 2. **Tous les fichiers du projet** dans le même dossier
 
-#### Compilation en 1-Clic
-
-```batch
-Double-cliquez sur : BUILD_INSTALLER.bat
-```
-
-Le script va :
-- ✅ Vérifier NSIS
-- ✅ Vérifier les fichiers
-- ✅ Compiler l'installateur
-- ✅ Afficher le résultat
-
-**Durée : 30-60 secondes**
-
-#### Compilation Manuelle
-
-```cmd
-"C:\Program Files (x86)\NSIS\makensis.exe" /V3 installer_v7_complete.nsi
-```
 
 **Résultat :** `HYBRID_Telescope_Control_Setup_v7.0_Complete.exe` (~50-100 MB)
 
----
-
-## 📚 Documentation Disponible
-
-### Guides Utilisateur
-
-1. **`USER_INSTALLATION_GUIDE.md`**
-   - Guide d'installation complet
-   - Configuration initiale
-   - Premiers pas
-
-2. **`GUIDE_INITIALISATION_ML.md`** 🆕
-   - Tout sur les modèles ML
-   - Initialisation manuelle
-   - Troubleshooting complet
-   - Informations techniques
-
-3. **`README.md`**
-   - Présentation générale
-   - Fonctionnalités
-   - Utilisation
-
-### Guides Développeur
-
-4. **`GUIDE_COMPILATION_INSTALLATEUR.md`** 🆕
-   - Compilation NSIS
-   - Structure de l'installateur
-   - Personnalisation
-   - Tests et distribution
-
-5. **`CHANGELOG_V7_ML_IMPROVEMENTS.md`** 🆕
-   - Toutes les améliorations ML
-   - Comparaison avant/après
-   - Statistiques détaillées
-
----
 
 ## 🆕 Nouveautés Version 7.0 Complete
 
@@ -357,4 +290,5 @@ Voir LICENSE.txt pour les détails
 
 *README créé pour la Version 7.0 Complete Edition*  
 *Dernière mise à jour : Novembre 2025*
+
 
