@@ -1,0 +1,855 @@
+command,phonetic_variation,category,ascom_action
+slew to target,slew to target,navigation,SlewToTarget
+slew to target,slew two target,navigation,SlewToTarget
+slew to target,slue to target,navigation,SlewToTarget
+slew to target,slew too target,navigation,SlewToTarget
+slew to target,slew to the target,navigation,SlewToTarget
+go to target,go to target,navigation,SlewToTarget
+go to target,go two target,navigation,SlewToTarget
+go to target,goto target,navigation,SlewToTarget
+go to target,go too target,navigation,SlewToTarget
+go to target,go to the target,navigation,SlewToTarget
+point to target,point to target,navigation,SlewToTarget
+point to target,point two target,navigation,SlewToTarget
+point to target,point at target,navigation,SlewToTarget
+point to target,point too target,navigation,SlewToTarget
+move to target,move to target,navigation,SlewToTarget
+move to target,move two target,navigation,SlewToTarget
+move to target,move too target,navigation,SlewToTarget
+move to target,moov to target,navigation,SlewToTarget
+track target,track target,navigation,SlewToTarget
+track target,track the target,navigation,SlewToTarget
+track target,trak target,navigation,SlewToTarget
+center target,center target,navigation,SlewToTarget
+center target,centre target,navigation,SlewToTarget
+center target,center the target,navigation,SlewToTarget
+center target,sentre target,navigation,SlewToTarget
+slew to coordinates,slew to coordinates,navigation,SlewToCoordinates
+slew to coordinates,slew two coordinates,navigation,SlewToCoordinates
+slew to coordinates,slew to cordinates,navigation,SlewToCoordinates
+slew to coordinates,slue to coordinates,navigation,SlewToCoordinates
+go to coordinates,go to coordinates,navigation,SlewToCoordinates
+go to coordinates,go two coordinates,navigation,SlewToCoordinates
+go to coordinates,goto coordinates,navigation,SlewToCoordinates
+go to coordinates,go to cordinates,navigation,SlewToCoordinates
+slew to ra dec,slew to ra dec,navigation,SlewToCoordinates
+slew to ra dec,slew to ra deck,navigation,SlewToCoordinates
+slew to ra dec,slew two ra dec,navigation,SlewToCoordinates
+slew to ra dec,slue to ra dec,navigation,SlewToCoordinates
+move north,move north,movement,MoveAxis_North
+move north,moov north,movement,MoveAxis_North
+move north,move nort,movement,MoveAxis_North
+move north,move northe,movement,MoveAxis_North
+move north,moving north,movement,MoveAxis_North
+go north,go north,movement,MoveAxis_North
+go north,go nort,movement,MoveAxis_North
+go north,going north,movement,MoveAxis_North
+nudge north,nudge north,movement,MoveAxis_North
+nudge north,nuj north,movement,MoveAxis_North
+north,north,movement,MoveAxis_North
+north,nort,movement,MoveAxis_North
+north,northe,movement,MoveAxis_North
+move south,move south,movement,MoveAxis_South
+move south,moov south,movement,MoveAxis_South
+move south,move sowth,movement,MoveAxis_South
+move south,move sauth,movement,MoveAxis_South
+move south,moving south,movement,MoveAxis_South
+go south,go south,movement,MoveAxis_South
+go south,go sowth,movement,MoveAxis_South
+go south,going south,movement,MoveAxis_South
+nudge south,nudge south,movement,MoveAxis_South
+nudge south,nuj south,movement,MoveAxis_South
+south,south,movement,MoveAxis_South
+south,sowth,movement,MoveAxis_South
+south,sauth,movement,MoveAxis_South
+move east,move east,movement,MoveAxis_East
+move east,moov east,movement,MoveAxis_East
+move east,move eest,movement,MoveAxis_East
+move east,moving east,movement,MoveAxis_East
+go east,go east,movement,MoveAxis_East
+go east,go eest,movement,MoveAxis_East
+go east,going east,movement,MoveAxis_East
+nudge east,nudge east,movement,MoveAxis_East
+nudge east,nuj east,movement,MoveAxis_East
+east,east,movement,MoveAxis_East
+east,eest,movement,MoveAxis_East
+east,easte,movement,MoveAxis_East
+move west,move west,movement,MoveAxis_West
+move west,moov west,movement,MoveAxis_West
+move west,move wast,movement,MoveAxis_West
+move west,moving west,movement,MoveAxis_West
+go west,go west,movement,MoveAxis_West
+go west,go wast,movement,MoveAxis_West
+go west,going west,movement,MoveAxis_West
+nudge west,nudge west,movement,MoveAxis_West
+nudge west,nuj west,movement,MoveAxis_West
+west,west,movement,MoveAxis_West
+west,wast,movement,MoveAxis_West
+west,weste,movement,MoveAxis_West
+move up,move up,movement,MoveAxis_Up
+move up,moov up,movement,MoveAxis_Up
+move up,move uhp,movement,MoveAxis_Up
+move up,moving up,movement,MoveAxis_Up
+go up,go up,movement,MoveAxis_Up
+go up,go uhp,movement,MoveAxis_Up
+up,up,movement,MoveAxis_Up
+up,uhp,movement,MoveAxis_Up
+move down,move down,movement,MoveAxis_Down
+move down,moov down,movement,MoveAxis_Down
+move down,move doun,movement,MoveAxis_Down
+move down,moving down,movement,MoveAxis_Down
+go down,go down,movement,MoveAxis_Down
+go down,go doun,movement,MoveAxis_Down
+down,down,movement,MoveAxis_Down
+down,doun,movement,MoveAxis_Down
+move left,move left,movement,MoveAxis_Left
+move left,moov left,movement,MoveAxis_Left
+move left,move lef,movement,MoveAxis_Left
+move left,moving left,movement,MoveAxis_Left
+go left,go left,movement,MoveAxis_Left
+go left,go lef,movement,MoveAxis_Left
+left,left,movement,MoveAxis_Left
+left,lef,movement,MoveAxis_Left
+move right,move right,movement,MoveAxis_Right
+move right,moov right,movement,MoveAxis_Right
+move right,move rite,movement,MoveAxis_Right
+move right,moving right,movement,MoveAxis_Right
+go right,go right,movement,MoveAxis_Right
+go right,go rite,movement,MoveAxis_Right
+right,right,movement,MoveAxis_Right
+right,rite,movement,MoveAxis_Right
+right,wright,movement,MoveAxis_Right
+stop,stop,control,AbortSlew
+stop,stopp,control,AbortSlew
+stop,stahp,control,AbortSlew
+stop moving,stop moving,control,AbortSlew
+stop moving,stop mooving,control,AbortSlew
+halt,halt,control,AbortSlew
+halt,hawlt,control,AbortSlew
+abort,abort,control,AbortSlew
+abort,abord,control,AbortSlew
+abort,uhbort,control,AbortSlew
+abort slew,abort slew,control,AbortSlew
+abort slew,abord slew,control,AbortSlew
+abort slew,abort slue,control,AbortSlew
+cancel,cancel,control,AbortSlew
+cancel,cansel,control,AbortSlew
+cancel,cancle,control,AbortSlew
+emergency stop,emergency stop,control,AbortSlew
+emergency stop,emergensee stop,control,AbortSlew
+emergency stop,emergency stopp,control,AbortSlew
+park telescope,park telescope,parking,Park
+park telescope,park tellescope,parking,Park
+park telescope,park the telescope,parking,Park
+park telescope,parke telescope,parking,Park
+park,park,parking,Park
+park,parke,parking,Park
+park,pahk,parking,Park
+park scope,park scope,parking,Park
+park scope,park skope,parking,Park
+park mount,park mount,parking,Park
+park mount,park mownt,parking,Park
+go to park,go to park,parking,Park
+go to park,go two park,parking,Park
+go to park position,go to park position,parking,Park
+unpark telescope,unpark telescope,parking,Unpark
+unpark telescope,unpark tellescope,parking,Unpark
+unpark telescope,unpark the telescope,parking,Unpark
+unpark,unpark,parking,Unpark
+unpark,unparke,parking,Unpark
+unpark,un park,parking,Unpark
+unpark scope,unpark scope,parking,Unpark
+unpark mount,unpark mount,parking,Unpark
+wake up,wake up,parking,Unpark
+wake up,wayk up,parking,Unpark
+start tracking,start tracking,tracking,Tracking_On
+start tracking,start traking,tracking,Tracking_On
+start tracking,stahrt tracking,tracking,Tracking_On
+start tracking,begin tracking,tracking,Tracking_On
+tracking on,tracking on,tracking,Tracking_On
+tracking on,traking on,tracking,Tracking_On
+tracking on,tracking awn,tracking,Tracking_On
+enable tracking,enable tracking,tracking,Tracking_On
+enable tracking,enable traking,tracking,Tracking_On
+enable tracking,inable tracking,tracking,Tracking_On
+track,track,tracking,Tracking_On
+track,trak,tracking,Tracking_On
+begin tracking,begin tracking,tracking,Tracking_On
+begin tracking,begin traking,tracking,Tracking_On
+stop tracking,stop tracking,tracking,Tracking_Off
+stop tracking,stop traking,tracking,Tracking_Off
+stop tracking,stopp tracking,tracking,Tracking_Off
+tracking off,tracking off,tracking,Tracking_Off
+tracking off,traking off,tracking,Tracking_Off
+tracking off,tracking awf,tracking,Tracking_Off
+disable tracking,disable tracking,tracking,Tracking_Off
+disable tracking,disable traking,tracking,Tracking_Off
+disable tracking,disabl tracking,tracking,Tracking_Off
+no tracking,no tracking,tracking,Tracking_Off
+no tracking,no traking,tracking,Tracking_Off
+sidereal rate,sidereal rate,tracking,TrackingRate_Sidereal
+sidereal rate,siderial rate,tracking,TrackingRate_Sidereal
+sidereal rate,sidereal rayt,tracking,TrackingRate_Sidereal
+sidereal tracking,sidereal tracking,tracking,TrackingRate_Sidereal
+sidereal tracking,siderial tracking,tracking,TrackingRate_Sidereal
+sidereal,sidereal,tracking,TrackingRate_Sidereal
+sidereal,siderial,tracking,TrackingRate_Sidereal
+sidereal,sydereal,tracking,TrackingRate_Sidereal
+track sidereal,track sidereal,tracking,TrackingRate_Sidereal
+track sidereal,trak sidereal,tracking,TrackingRate_Sidereal
+track sidereal,track siderial,tracking,TrackingRate_Sidereal
+lunar rate,lunar rate,tracking,TrackingRate_Lunar
+lunar rate,loonar rate,tracking,TrackingRate_Lunar
+lunar rate,lunar rayt,tracking,TrackingRate_Lunar
+lunar tracking,lunar tracking,tracking,TrackingRate_Lunar
+lunar tracking,loonar tracking,tracking,TrackingRate_Lunar
+lunar,lunar,tracking,TrackingRate_Lunar
+lunar,loonar,tracking,TrackingRate_Lunar
+lunar,lunare,tracking,TrackingRate_Lunar
+track lunar,track lunar,tracking,TrackingRate_Lunar
+track lunar,trak lunar,tracking,TrackingRate_Lunar
+track moon,track moon,tracking,TrackingRate_Lunar
+track moon,trak moon,tracking,TrackingRate_Lunar
+track the moon,track the moon,tracking,TrackingRate_Lunar
+solar rate,solar rate,tracking,TrackingRate_Solar
+solar rate,soler rate,tracking,TrackingRate_Solar
+solar rate,solar rayt,tracking,TrackingRate_Solar
+solar tracking,solar tracking,tracking,TrackingRate_Solar
+solar tracking,soler tracking,tracking,TrackingRate_Solar
+solar,solar,tracking,TrackingRate_Solar
+solar,soler,tracking,TrackingRate_Solar
+solar,solur,tracking,TrackingRate_Solar
+track solar,track solar,tracking,TrackingRate_Solar
+track solar,trak solar,tracking,TrackingRate_Solar
+track sun,track sun,tracking,TrackingRate_Solar
+track sun,trak sun,tracking,TrackingRate_Solar
+track the sun,track the sun,tracking,TrackingRate_Solar
+king rate,king rate,tracking,TrackingRate_King
+king rate,keeng rate,tracking,TrackingRate_King
+king tracking,king tracking,tracking,TrackingRate_King
+king tracking,keeng tracking,tracking,TrackingRate_King
+guide rate,guide rate,speed,SetSlewRate_Guide
+guide rate,gide rate,speed,SetSlewRate_Guide
+guide rate,guide rayt,speed,SetSlewRate_Guide
+guide speed,guide speed,speed,SetSlewRate_Guide
+guide speed,gide speed,speed,SetSlewRate_Guide
+guiding rate,guiding rate,speed,SetSlewRate_Guide
+guiding rate,giding rate,speed,SetSlewRate_Guide
+set guide,set guide,speed,SetSlewRate_Guide
+set guide,set gide,speed,SetSlewRate_Guide
+centering rate,centering rate,speed,SetSlewRate_Center
+centering rate,sentering rate,speed,SetSlewRate_Center
+centering rate,centering rayt,speed,SetSlewRate_Center
+center rate,center rate,speed,SetSlewRate_Center
+center rate,centre rate,speed,SetSlewRate_Center
+center rate,senter rate,speed,SetSlewRate_Center
+centering speed,centering speed,speed,SetSlewRate_Center
+centering speed,sentering speed,speed,SetSlewRate_Center
+set center,set center,speed,SetSlewRate_Center
+set center,set centre,speed,SetSlewRate_Center
+find rate,find rate,speed,SetSlewRate_Find
+find rate,finde rate,speed,SetSlewRate_Find
+find rate,find rayt,speed,SetSlewRate_Find
+find speed,find speed,speed,SetSlewRate_Find
+finding rate,finding rate,speed,SetSlewRate_Find
+finding rate,fynding rate,speed,SetSlewRate_Find
+set find,set find,speed,SetSlewRate_Find
+set find,set finde,speed,SetSlewRate_Find
+slew rate,slew rate,speed,SetSlewRate_Slew
+slew rate,slue rate,speed,SetSlewRate_Slew
+slew rate,slew rayt,speed,SetSlewRate_Slew
+slew speed,slew speed,speed,SetSlewRate_Slew
+slew speed,slue speed,speed,SetSlewRate_Slew
+maximum rate,maximum rate,speed,SetSlewRate_Slew
+maximum rate,maksimum rate,speed,SetSlewRate_Slew
+max rate,max rate,speed,SetSlewRate_Slew
+max rate,maks rate,speed,SetSlewRate_Slew
+fastest,fastest,speed,SetSlewRate_Slew
+fastest,fahstest,speed,SetSlewRate_Slew
+full speed,full speed,speed,SetSlewRate_Slew
+full speed,full spede,speed,SetSlewRate_Slew
+slow down,slow down,speed,DecreaseSpeed
+slow down,sloe down,speed,DecreaseSpeed
+slow down,slow doun,speed,DecreaseSpeed
+slower,slower,speed,DecreaseSpeed
+slower,sloer,speed,DecreaseSpeed
+decrease speed,decrease speed,speed,DecreaseSpeed
+decrease speed,decreese speed,speed,DecreaseSpeed
+reduce speed,reduce speed,speed,DecreaseSpeed
+reduce speed,reduse speed,speed,DecreaseSpeed
+speed up,speed up,speed,IncreaseSpeed
+speed up,spede up,speed,IncreaseSpeed
+faster,faster,speed,IncreaseSpeed
+faster,fahster,speed,IncreaseSpeed
+increase speed,increase speed,speed,IncreaseSpeed
+increase speed,increese speed,speed,IncreaseSpeed
+go faster,go faster,speed,IncreaseSpeed
+go faster,go fahster,speed,IncreaseSpeed
+focus in,focus in,focus,FocusIn
+focus in,fokus in,focus,FocusIn
+focus in,focus inn,focus,FocusIn
+focus inward,focus inward,focus,FocusIn
+focus inward,fokus inward,focus,FocusIn
+focus closer,focus closer,focus,FocusIn
+focus closer,fokus closer,focus,FocusIn
+move focus in,move focus in,focus,FocusIn
+move focus in,moov focus in,focus,FocusIn
+focus out,focus out,focus,FocusOut
+focus out,fokus out,focus,FocusOut
+focus out,focus owt,focus,FocusOut
+focus outward,focus outward,focus,FocusOut
+focus outward,fokus outward,focus,FocusOut
+focus farther,focus farther,focus,FocusOut
+focus farther,fokus farther,focus,FocusOut
+move focus out,move focus out,focus,FocusOut
+move focus out,moov focus out,focus,FocusOut
+auto focus,auto focus,focus,AutoFocus
+auto focus,auto fokus,focus,AutoFocus
+auto focus,awto focus,focus,AutoFocus
+autofocus,autofocus,focus,AutoFocus
+autofocus,autofokus,focus,AutoFocus
+autofocus,awtofocus,focus,AutoFocus
+start autofocus,start autofocus,focus,AutoFocus
+start autofocus,start autofokus,focus,AutoFocus
+begin autofocus,begin autofocus,focus,AutoFocus
+run autofocus,run autofocus,focus,AutoFocus
+focus stop,focus stop,focus,FocusStop
+focus stop,fokus stop,focus,FocusStop
+stop focus,stop focus,focus,FocusStop
+stop focus,stop fokus,focus,FocusStop
+halt focus,halt focus,focus,FocusStop
+halt focus,hawlt focus,focus,FocusStop
+sync,sync,alignment,SyncToTarget
+sync,synk,alignment,SyncToTarget
+sync,sink,alignment,SyncToTarget
+sync to target,sync to target,alignment,SyncToTarget
+sync to target,synk to target,alignment,SyncToTarget
+sync to target,sync two target,alignment,SyncToTarget
+synchronize,synchronize,alignment,SyncToTarget
+synchronize,syncronize,alignment,SyncToTarget
+synchronize,syncronise,alignment,SyncToTarget
+sync position,sync position,alignment,SyncToTarget
+sync position,synk position,alignment,SyncToTarget
+sync coordinates,sync coordinates,alignment,SyncToCoordinates
+sync coordinates,synk coordinates,alignment,SyncToCoordinates
+sync coordinates,sync cordinates,alignment,SyncToCoordinates
+sync to coordinates,sync to coordinates,alignment,SyncToCoordinates
+sync to coordinates,synk to coordinates,alignment,SyncToCoordinates
+alignment star,alignment star,alignment,AddAlignmentStar
+alignment star,alynment star,alignment,AddAlignmentStar
+alignment star,alignment stahr,alignment,AddAlignmentStar
+add alignment star,add alignment star,alignment,AddAlignmentStar
+add alignment star,ad alignment star,alignment,AddAlignmentStar
+add alignment star,add alynment star,alignment,AddAlignmentStar
+align star,align star,alignment,AddAlignmentStar
+align star,aline star,alignment,AddAlignmentStar
+align star,align stahr,alignment,AddAlignmentStar
+one star alignment,one star alignment,alignment,OneStarAlignment
+one star alignment,one star alynment,alignment,OneStarAlignment
+one star alignment,wun star alignment,alignment,OneStarAlignment
+two star alignment,two star alignment,alignment,TwoStarAlignment
+two star alignment,two star alynment,alignment,TwoStarAlignment
+two star alignment,too star alignment,alignment,TwoStarAlignment
+three star alignment,three star alignment,alignment,ThreeStarAlignment
+three star alignment,three star alynment,alignment,ThreeStarAlignment
+three star alignment,tree star alignment,alignment,ThreeStarAlignment
+polar align,polar align,alignment,PolarAlignment
+polar align,polar aline,alignment,PolarAlignment
+polar align,poler align,alignment,PolarAlignment
+polar alignment,polar alignment,alignment,PolarAlignment
+polar alignment,polar alynment,alignment,PolarAlignment
+polar alignment,poler alignment,alignment,PolarAlignment
+find home,find home,homing,FindHome
+find home,finde home,homing,FindHome
+find home,find hoam,homing,FindHome
+go home,go home,homing,FindHome
+go home,go hoam,homing,FindHome
+home position,home position,homing,FindHome
+home position,hoam position,homing,FindHome
+return home,return home,homing,FindHome
+return home,return hoam,homing,FindHome
+home,home,homing,FindHome
+home,hoam,homing,FindHome
+set home,set home,homing,SetHome
+set home,set hoam,homing,SetHome
+set home position,set home position,homing,SetHome
+set home position,set hoam position,homing,SetHome
+define home,define home,homing,SetHome
+define home,define hoam,homing,SetHome
+connect telescope,connect telescope,connection,Connect
+connect telescope,conect telescope,connection,Connect
+connect telescope,connect tellescope,connection,Connect
+connect,connect,connection,Connect
+connect,conect,connection,Connect
+connect,konnect,connection,Connect
+connect mount,connect mount,connection,Connect
+connect mount,conect mount,connection,Connect
+connect to telescope,connect to telescope,connection,Connect
+connect to telescope,conect to telescope,connection,Connect
+link telescope,link telescope,connection,Connect
+link telescope,link tellescope,connection,Connect
+disconnect telescope,disconnect telescope,connection,Disconnect
+disconnect telescope,disconect telescope,connection,Disconnect
+disconnect telescope,disconnect tellescope,connection,Disconnect
+disconnect,disconnect,connection,Disconnect
+disconnect,disconect,connection,Disconnect
+disconnect,dis connect,connection,Disconnect
+disconnect mount,disconnect mount,connection,Disconnect
+disconnect mount,disconect mount,connection,Disconnect
+unlink telescope,unlink telescope,connection,Disconnect
+unlink telescope,unlink tellescope,connection,Disconnect
+flip meridian,flip meridian,meridian,MeridianFlip
+flip meridian,flip meredian,meridian,MeridianFlip
+flip meridian,flip merridian,meridian,MeridianFlip
+meridian flip,meridian flip,meridian,MeridianFlip
+meridian flip,meredian flip,meridian,MeridianFlip
+meridian flip,merridian flip,meridian,MeridianFlip
+pier flip,pier flip,meridian,MeridianFlip
+pier flip,peer flip,meridian,MeridianFlip
+do meridian flip,do meridian flip,meridian,MeridianFlip
+do meridian flip,do meredian flip,meridian,MeridianFlip
+flip,flip,meridian,MeridianFlip
+flip,flippe,meridian,MeridianFlip
+side of pier,side of pier,status,SideOfPier
+side of pier,side of peer,status,SideOfPier
+pier side,pier side,status,SideOfPier
+pier side,peer side,status,SideOfPier
+which side,which side,status,SideOfPier
+what side,what side,status,SideOfPier
+get position,get position,status,GetPosition
+get position,get posishun,status,GetPosition
+where am i,where am i,status,GetPosition
+where am i,where am eye,status,GetPosition
+current position,current position,status,GetPosition
+current position,curent position,status,GetPosition
+what position,what position,status,GetPosition
+what position,what posishun,status,GetPosition
+show coordinates,show coordinates,status,GetPosition
+show coordinates,show cordinates,status,GetPosition
+get coordinates,get coordinates,status,GetPosition
+get coordinates,get cordinates,status,GetPosition
+what ra dec,what ra dec,status,GetPosition
+what ra dec,what ra deck,status,GetPosition
+altitude azimuth,altitude azimuth,status,GetAltAz
+altitude azimuth,altitude azimuth,status,GetAltAz
+altitude azimuth,altitood azimuth,status,GetAltAz
+alt az,alt az,status,GetAltAz
+alt az,alt azz,status,GetAltAz
+get alt az,get alt az,status,GetAltAz
+show alt az,show alt az,status,GetAltAz
+what altitude,what altitude,status,GetAltAz
+what altitude,what altitood,status,GetAltAz
+telescope status,telescope status,status,GetStatus
+telescope status,tellescope status,status,GetStatus
+telescope status,telescope staytus,status,GetStatus
+mount status,mount status,status,GetStatus
+mount status,mownt status,status,GetStatus
+status,status,status,GetStatus
+status,staytus,status,GetStatus
+what status,what status,status,GetStatus
+what status,what staytus,status,GetStatus
+get status,get status,status,GetStatus
+get status,get staytus,status,GetStatus
+is tracking,is tracking,status,IsTracking
+is tracking,is traking,status,IsTracking
+tracking status,tracking status,status,IsTracking
+tracking status,traking status,status,IsTracking
+is parked,is parked,status,IsParked
+is parked,is pahked,status,IsParked
+parked status,parked status,status,IsParked
+is connected,is connected,status,IsConnected
+is connected,is conected,status,IsConnected
+connection status,connection status,status,IsConnected
+connection status,conection status,status,IsConnected
+is slewing,is slewing,status,IsSlewing
+is slewing,is sluing,status,IsSlewing
+slewing status,slewing status,status,IsSlewing
+is moving,is moving,status,IsSlewing
+is moving,is mooving,status,IsSlewing
+dew heater on,dew heater on,accessories,DewHeaterOn
+dew heater on,doo heater on,accessories,DewHeaterOn
+dew heater on,dew heeter on,accessories,DewHeaterOn
+start dew heater,start dew heater,accessories,DewHeaterOn
+start dew heater,start doo heater,accessories,DewHeaterOn
+turn on dew heater,turn on dew heater,accessories,DewHeaterOn
+turn on dew heater,turn on doo heater,accessories,DewHeaterOn
+dew heater off,dew heater off,accessories,DewHeaterOff
+dew heater off,doo heater off,accessories,DewHeaterOff
+dew heater off,dew heeter off,accessories,DewHeaterOff
+stop dew heater,stop dew heater,accessories,DewHeaterOff
+stop dew heater,stop doo heater,accessories,DewHeaterOff
+turn off dew heater,turn off dew heater,accessories,DewHeaterOff
+turn off dew heater,turn off doo heater,accessories,DewHeaterOff
+open dome,open dome,dome,OpenDome
+open dome,open doam,dome,OpenDome
+open dome,oapen dome,dome,OpenDome
+open the dome,open the dome,dome,OpenDome
+open the dome,open the doam,dome,OpenDome
+dome open,dome open,dome,OpenDome
+dome open,doam open,dome,OpenDome
+close dome,close dome,dome,CloseDome
+close dome,close doam,dome,CloseDome
+close dome,cloze dome,dome,CloseDome
+close the dome,close the dome,dome,CloseDome
+close the dome,close the doam,dome,CloseDome
+dome close,dome close,dome,CloseDome
+dome close,doam close,dome,CloseDome
+shut dome,shut dome,dome,CloseDome
+shut dome,shut doam,dome,CloseDome
+rotate dome,rotate dome,dome,RotateDome
+rotate dome,rotate doam,dome,RotateDome
+rotate dome,roetate dome,dome,RotateDome
+turn dome,turn dome,dome,RotateDome
+turn dome,turn doam,dome,RotateDome
+dome rotate,dome rotate,dome,RotateDome
+dome rotate,doam rotate,dome,RotateDome
+slave dome,slave dome,dome,SlaveDome
+slave dome,slave doam,dome,SlaveDome
+dome slave,dome slave,dome,SlaveDome
+dome slave,doam slave,dome,SlaveDome
+sync dome,sync dome,dome,SyncDome
+sync dome,synk dome,dome,SyncDome
+sync dome,sync doam,dome,SyncDome
+dome sync,dome sync,dome,SyncDome
+dome sync,doam sync,dome,SyncDome
+park dome,park dome,dome,ParkDome
+park dome,park doam,dome,ParkDome
+dome park,dome park,dome,ParkDome
+dome park,doam park,dome,ParkDome
+open shutter,open shutter,dome,OpenShutter
+open shutter,open shuter,dome,OpenShutter
+open shutter,oapen shutter,dome,OpenShutter
+close shutter,close shutter,dome,CloseShutter
+close shutter,close shuter,dome,CloseShutter
+close shutter,cloze shutter,dome,CloseShutter
+shutter open,shutter open,dome,OpenShutter
+shutter open,shuter open,dome,OpenShutter
+shutter close,shutter close,dome,CloseShutter
+shutter close,shuter close,dome,CloseShutter
+start sequence,start sequence,imaging,StartSequence
+start sequence,start seequence,imaging,StartSequence
+start sequence,stahrt sequence,imaging,StartSequence
+begin sequence,begin sequence,imaging,StartSequence
+begin sequence,begin seequence,imaging,StartSequence
+run sequence,run sequence,imaging,StartSequence
+run sequence,run seequence,imaging,StartSequence
+stop sequence,stop sequence,imaging,StopSequence
+stop sequence,stop seequence,imaging,StopSequence
+stop sequence,stopp sequence,imaging,StopSequence
+abort sequence,abort sequence,imaging,StopSequence
+abort sequence,abort seequence,imaging,StopSequence
+end sequence,end sequence,imaging,StopSequence
+end sequence,end seequence,imaging,StopSequence
+pause sequence,pause sequence,imaging,PauseSequence
+pause sequence,paws sequence,imaging,PauseSequence
+pause sequence,pause seequence,imaging,PauseSequence
+resume sequence,resume sequence,imaging,ResumeSequence
+resume sequence,rezume sequence,imaging,ResumeSequence
+resume sequence,resume seequence,imaging,ResumeSequence
+continue sequence,continue sequence,imaging,ResumeSequence
+continue sequence,continue seequence,imaging,ResumeSequence
+take image,take image,imaging,TakeImage
+take image,take imaj,imaging,TakeImage
+take image,tayk image,imaging,TakeImage
+capture image,capture image,imaging,TakeImage
+capture image,capture imaj,imaging,TakeImage
+capture image,kapture image,imaging,TakeImage
+take photo,take photo,imaging,TakeImage
+take photo,take foto,imaging,TakeImage
+take picture,take picture,imaging,TakeImage
+take picture,take pikture,imaging,TakeImage
+shoot,shoot,imaging,TakeImage
+shoot,shute,imaging,TakeImage
+snap,snap,imaging,TakeImage
+snap,snapp,imaging,TakeImage
+expose,expose,imaging,TakeImage
+expose,ekspose,imaging,TakeImage
+take exposure,take exposure,imaging,TakeImage
+take exposure,take eksposure,imaging,TakeImage
+plate solve,plate solve,platesolving,PlateSolve
+plate solve,playt solve,platesolving,PlateSolve
+plate solve,plate solv,platesolving,PlateSolve
+platesolve,platesolve,platesolving,PlateSolve
+platesolve,playtsolve,platesolving,PlateSolve
+solve,solve,platesolving,PlateSolve
+solve,solv,platesolving,PlateSolve
+run plate solve,run plate solve,platesolving,PlateSolve
+run plate solve,run playt solve,platesolving,PlateSolve
+center and solve,center and solve,platesolving,CenterAndSolve
+center and solve,centre and solve,platesolving,CenterAndSolve
+center and solve,center and solv,platesolving,CenterAndSolve
+solve and sync,solve and sync,platesolving,SolveAndSync
+solve and sync,solv and sync,platesolving,SolveAndSync
+solve and sync,solve and synk,platesolving,SolveAndSync
+blind solve,blind solve,platesolving,BlindSolve
+blind solve,blynd solve,platesolving,BlindSolve
+blind solve,blind solv,platesolving,BlindSolve
+start guiding,start guiding,guiding,StartGuiding
+start guiding,start giding,guiding,StartGuiding
+start guiding,stahrt guiding,guiding,StartGuiding
+begin guiding,begin guiding,guiding,StartGuiding
+begin guiding,begin giding,guiding,StartGuiding
+guide on,guide on,guiding,StartGuiding
+guide on,gide on,guiding,StartGuiding
+enable guiding,enable guiding,guiding,StartGuiding
+enable guiding,enable giding,guiding,StartGuiding
+stop guiding,stop guiding,guiding,StopGuiding
+stop guiding,stop giding,guiding,StopGuiding
+stop guiding,stopp guiding,guiding,StopGuiding
+guide off,guide off,guiding,StopGuiding
+guide off,gide off,guiding,StopGuiding
+disable guiding,disable guiding,guiding,StopGuiding
+disable guiding,disable giding,guiding,StopGuiding
+pause guiding,pause guiding,guiding,PauseGuiding
+pause guiding,paws guiding,guiding,PauseGuiding
+pause guiding,pause giding,guiding,PauseGuiding
+resume guiding,resume guiding,guiding,ResumeGuiding
+resume guiding,rezume guiding,guiding,ResumeGuiding
+resume guiding,resume giding,guiding,ResumeGuiding
+calibrate guider,calibrate guider,guiding,CalibrateGuider
+calibrate guider,calibrayt guider,guiding,CalibrateGuider
+calibrate guider,calibrate gider,guiding,CalibrateGuider
+guider calibration,guider calibration,guiding,CalibrateGuider
+guider calibration,gider calibration,guiding,CalibrateGuider
+run calibration,run calibration,guiding,CalibrateGuider
+run calibration,run calibraytion,guiding,CalibrateGuider
+dither,dither,guiding,Dither
+dither,dither,guiding,Dither
+dither,dyther,guiding,Dither
+start dither,start dither,guiding,Dither
+start dither,start dyther,guiding,Dither
+cool camera,cool camera,camera,CoolCamera
+cool camera,cool kamera,camera,CoolCamera
+cool camera,kool camera,camera,CoolCamera
+start cooling,start cooling,camera,CoolCamera
+start cooling,start kooling,camera,CoolCamera
+enable cooling,enable cooling,camera,CoolCamera
+enable cooling,enable kooling,camera,CoolCamera
+warm camera,warm camera,camera,WarmCamera
+warm camera,warm kamera,camera,WarmCamera
+warm camera,worm camera,camera,WarmCamera
+stop cooling,stop cooling,camera,WarmCamera
+stop cooling,stop kooling,camera,WarmCamera
+disable cooling,disable cooling,camera,WarmCamera
+disable cooling,disable kooling,camera,WarmCamera
+set temperature,set temperature,camera,SetTemperature
+set temperature,set temperture,camera,SetTemperature
+set temperature,set tempurature,camera,SetTemperature
+target temperature,target temperature,camera,SetTemperature
+target temperature,target temperture,camera,SetTemperature
+cooling temperature,cooling temperature,camera,SetTemperature
+cooling temperature,kooling temperature,camera,SetTemperature
+camera temperature,camera temperature,camera,GetTemperature
+camera temperature,kamera temperature,camera,GetTemperature
+camera temperature,camera temperture,camera,GetTemperature
+get temperature,get temperature,camera,GetTemperature
+get temperature,get temperture,camera,GetTemperature
+what temperature,what temperature,camera,GetTemperature
+what temperature,what temperture,camera,GetTemperature
+current temperature,current temperature,camera,GetTemperature
+current temperature,current temperture,camera,GetTemperature
+set gain,set gain,camera,SetGain
+set gain,set gayn,camera,SetGain
+gain,gain,camera,SetGain
+gain,gayn,camera,SetGain
+camera gain,camera gain,camera,SetGain
+camera gain,kamera gain,camera,SetGain
+set offset,set offset,camera,SetOffset
+set offset,set ofset,camera,SetOffset
+offset,offset,camera,SetOffset
+offset,ofset,camera,SetOffset
+camera offset,camera offset,camera,SetOffset
+camera offset,kamera offset,camera,SetOffset
+set binning,set binning,camera,SetBinning
+set binning,set bining,camera,SetBinning
+binning,binning,camera,SetBinning
+binning,bining,camera,SetBinning
+one by one,one by one,camera,SetBinning_1x1
+one by one,wun by wun,camera,SetBinning_1x1
+one by one binning,one by one binning,camera,SetBinning_1x1
+two by two,two by two,camera,SetBinning_2x2
+two by two,too by too,camera,SetBinning_2x2
+two by two binning,two by two binning,camera,SetBinning_2x2
+three by three,three by three,camera,SetBinning_3x3
+three by three,tree by tree,camera,SetBinning_3x3
+three by three binning,three by three binning,camera,SetBinning_3x3
+four by four,four by four,camera,SetBinning_4x4
+four by four,for by for,camera,SetBinning_4x4
+four by four binning,four by four binning,camera,SetBinning_4x4
+rotate camera,rotate camera,rotator,RotateCamera
+rotate camera,rotate kamera,rotator,RotateCamera
+rotate camera,roetate camera,rotator,RotateCamera
+rotator,rotator,rotator,RotateCamera
+rotator,roetator,rotator,RotateCamera
+set rotation,set rotation,rotator,RotateCamera
+set rotation,set roetation,rotator,RotateCamera
+rotate to angle,rotate to angle,rotator,RotateToAngle
+rotate to angle,roetate to angle,rotator,RotateToAngle
+set angle,set angle,rotator,RotateToAngle
+set angle,set angl,rotator,RotateToAngle
+rotation angle,rotation angle,rotator,RotateToAngle
+rotation angle,roetation angle,rotator,RotateToAngle
+mechanical rotation,mechanical rotation,rotator,MechanicalRotation
+mechanical rotation,mekanical rotation,rotator,MechanicalRotation
+sky angle,sky angle,rotator,SkyAngle
+sky angle,sky angl,rotator,SkyAngle
+open filter wheel,open filter wheel,filterwheel,OpenFilterWheel
+open filter wheel,open filter weel,filterwheel,OpenFilterWheel
+filter wheel,filter wheel,filterwheel,FilterWheel
+filter wheel,filter weel,filterwheel,FilterWheel
+set filter,set filter,filterwheel,SetFilter
+set filter,set filtre,filterwheel,SetFilter
+change filter,change filter,filterwheel,SetFilter
+change filter,change filtre,filterwheel,SetFilter
+next filter,next filter,filterwheel,NextFilter
+next filter,next filtre,filterwheel,NextFilter
+previous filter,previous filter,filterwheel,PreviousFilter
+previous filter,previous filtre,filterwheel,PreviousFilter
+luminance filter,luminance filter,filterwheel,SetFilter_L
+luminance filter,luminance filtre,filterwheel,SetFilter_L
+luminance,luminance,filterwheel,SetFilter_L
+luminance,luminence,filterwheel,SetFilter_L
+lum filter,lum filter,filterwheel,SetFilter_L
+lum filter,lum filtre,filterwheel,SetFilter_L
+l filter,l filter,filterwheel,SetFilter_L
+red filter,red filter,filterwheel,SetFilter_R
+red filter,red filtre,filterwheel,SetFilter_R
+red,red,filterwheel,SetFilter_R
+red,redd,filterwheel,SetFilter_R
+r filter,r filter,filterwheel,SetFilter_R
+green filter,green filter,filterwheel,SetFilter_G
+green filter,green filtre,filterwheel,SetFilter_G
+green,green,filterwheel,SetFilter_G
+green,grene,filterwheel,SetFilter_G
+g filter,g filter,filterwheel,SetFilter_G
+blue filter,blue filter,filterwheel,SetFilter_B
+blue filter,blue filtre,filterwheel,SetFilter_B
+blue,blue,filterwheel,SetFilter_B
+blue,bloo,filterwheel,SetFilter_B
+b filter,b filter,filterwheel,SetFilter_B
+hydrogen alpha filter,hydrogen alpha filter,filterwheel,SetFilter_Ha
+hydrogen alpha filter,hydrogen alfa filter,filterwheel,SetFilter_Ha
+h alpha filter,h alpha filter,filterwheel,SetFilter_Ha
+h alpha filter,h alfa filter,filterwheel,SetFilter_Ha
+h alpha,h alpha,filterwheel,SetFilter_Ha
+h alpha,h alfa,filterwheel,SetFilter_Ha
+ha filter,ha filter,filterwheel,SetFilter_Ha
+ha filter,ha filtre,filterwheel,SetFilter_Ha
+oxygen three filter,oxygen three filter,filterwheel,SetFilter_OIII
+oxygen three filter,oxygen tree filter,filterwheel,SetFilter_OIII
+o three filter,o three filter,filterwheel,SetFilter_OIII
+o three filter,o tree filter,filterwheel,SetFilter_OIII
+oiii filter,oiii filter,filterwheel,SetFilter_OIII
+oiii,oiii,filterwheel,SetFilter_OIII
+sulfur two filter,sulfur two filter,filterwheel,SetFilter_SII
+sulfur two filter,sulfur too filter,filterwheel,SetFilter_SII
+s two filter,s two filter,filterwheel,SetFilter_SII
+s two filter,s too filter,filterwheel,SetFilter_SII
+sii filter,sii filter,filterwheel,SetFilter_SII
+sii,sii,filterwheel,SetFilter_SII
+clear filter,clear filter,filterwheel,SetFilter_Clear
+clear filter,clear filtre,filterwheel,SetFilter_Clear
+no filter,no filter,filterwheel,SetFilter_Clear
+no filter,no filtre,filterwheel,SetFilter_Clear
+flat panel on,flat panel on,flats,FlatPanelOn
+flat panel on,flat pannel on,flats,FlatPanelOn
+turn on flat panel,turn on flat panel,flats,FlatPanelOn
+turn on flat panel,turn on flat pannel,flats,FlatPanelOn
+flat light on,flat light on,flats,FlatPanelOn
+flat light on,flat lite on,flats,FlatPanelOn
+flat panel off,flat panel off,flats,FlatPanelOff
+flat panel off,flat pannel off,flats,FlatPanelOff
+turn off flat panel,turn off flat panel,flats,FlatPanelOff
+turn off flat panel,turn off flat pannel,flats,FlatPanelOff
+flat light off,flat light off,flats,FlatPanelOff
+flat light off,flat lite off,flats,FlatPanelOff
+set brightness,set brightness,flats,SetBrightness
+set brightness,set britenss,flats,SetBrightness
+panel brightness,panel brightness,flats,SetBrightness
+panel brightness,pannel brightness,flats,SetBrightness
+flat cover open,flat cover open,flats,OpenCover
+flat cover open,flat cover oapen,flats,OpenCover
+open cover,open cover,flats,OpenCover
+open cover,oapen cover,flats,OpenCover
+flat cover close,flat cover close,flats,CloseCover
+flat cover close,flat cover cloze,flats,CloseCover
+close cover,close cover,flats,CloseCover
+close cover,cloze cover,flats,CloseCover
+take flats,take flats,flats,TakeFlats
+take flats,take flatts,flats,TakeFlats
+capture flats,capture flats,flats,TakeFlats
+capture flats,kapture flats,flats,TakeFlats
+take darks,take darks,calibration,TakeDarks
+take darks,take dahks,calibration,TakeDarks
+capture darks,capture darks,calibration,TakeDarks
+capture darks,kapture darks,calibration,TakeDarks
+take bias,take bias,calibration,TakeBias
+take bias,take byas,calibration,TakeBias
+capture bias,capture bias,calibration,TakeBias
+capture bias,kapture bias,calibration,TakeBias
+take dark flats,take dark flats,calibration,TakeDarkFlats
+take dark flats,take dark flatts,calibration,TakeDarkFlats
+capture dark flats,capture dark flats,calibration,TakeDarkFlats
+capture dark flats,kapture dark flats,calibration,TakeDarkFlats
+weather status,weather status,weather,WeatherStatus
+weather status,weather staytus,weather,WeatherStatus
+weather status,wether status,weather,WeatherStatus
+check weather,check weather,weather,WeatherStatus
+check weather,check wether,weather,WeatherStatus
+is it safe,is it safe,weather,WeatherSafe
+is it safe,is it sayf,weather,WeatherSafe
+weather safe,weather safe,weather,WeatherSafe
+weather safe,wether safe,weather,WeatherSafe
+cloud sensor,cloud sensor,weather,CloudSensor
+cloud sensor,cloud senser,weather,CloudSensor
+sky quality,sky quality,weather,SkyQuality
+sky quality,sky quolity,weather,SkyQuality
+sqm reading,sqm reading,weather,SkyQuality
+sqm reading,sqm reeding,weather,SkyQuality
+seeing conditions,seeing conditions,weather,SeeingConditions
+seeing conditions,seeing condishuns,weather,SeeingConditions
+what is the seeing,what is the seeing,weather,SeeingConditions
+what is the seeing,what iz the seeing,weather,SeeingConditions
+wind speed,wind speed,weather,WindSpeed
+wind speed,wind spede,weather,WindSpeed
+wind speed,wynd speed,weather,WindSpeed
+humidity,humidity,weather,Humidity
+humidity,humiditi,weather,Humidity
+humidity,humiditee,weather,Humidity
+temperature outside,temperature outside,weather,OutsideTemperature
+temperature outside,temperture outside,weather,OutsideTemperature
+outside temperature,outside temperature,weather,OutsideTemperature
+outside temperature,outside temperture,weather,OutsideTemperature
+dew point,dew point,weather,DewPoint
+dew point,doo point,weather,DewPoint
+dew point,dew poynt,weather,DewPoint
+safety monitor,safety monitor,safety,SafetyMonitor
+safety monitor,sayfty monitor,safety,SafetyMonitor
+safety status,safety status,safety,SafetyMonitor
+safety status,sayfty status,safety,SafetyMonitor
+is safe,is safe,safety,IsSafe
+is safe,is sayf,safety,IsSafe
+safe to operate,safe to operate,safety,IsSafe
+safe to operate,sayf to operate,safety,IsSafe
+emergency shutdown,emergency shutdown,safety,EmergencyShutdown
+emergency shutdown,emergensee shutdown,safety,EmergencyShutdown
+shutdown,shutdown,safety,Shutdown
+shutdown,shutdoun,safety,Shutdown
+safe shutdown,safe shutdown,safety,SafeShutdown
+safe shutdown,sayf shutdown,safety,SafeShutdown
+power off,power off,power,PowerOff
+power off,power awf,power,PowerOff
+turn off power,turn off power,power,PowerOff
+turn off power,turn awf power,power,PowerOff
+power on,power on,power,PowerOn
+power on,power awn,power,PowerOn
+turn on power,turn on power,power,PowerOn
+turn on power,turn awn power,power,PowerOn
+power status,power status,power,PowerStatus
+power status,power staytus,power,PowerStatus
+switch status,switch status,power,SwitchStatus
+switch status,switch staytus,power,SwitchStatus
+usb hub,usb hub,power,USBHub
+usb hub,usb hubb,power,USBHub
+reset usb,reset usb,power,ResetUSB
+reset usb,reeset usb,power,ResetUSB

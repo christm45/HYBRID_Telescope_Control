@@ -1,0 +1,3 @@
+===== TiGra.ASCOM Start Diagnostics: TraceLevel = Warning =====
+TiGra.ASCOM[Warn]: Unexpected setting of ApplicationName to System
+TiGra.ASCOM[Warn]: Unexpected setting of ApplicationName to HYBRID_Telescope_Control
